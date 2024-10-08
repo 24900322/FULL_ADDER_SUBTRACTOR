@@ -62,11 +62,11 @@ FULL SUBTRACTOR:
 
 ![EX4 PRO 1B](https://github.com/user-attachments/assets/44f61a9d-9c12-48fc-b7f4-8f29c511c720)
 
-**RTL Schematic(1A)"**
+**RTL Schematic(1B)"**
 
 ![EX 4 RTL 1B](https://github.com/user-attachments/assets/c301664e-f42d-41ff-8ff0-e2263f84490e)
 
-**Output Timing Waveform(1A):**
+**Output Timing Waveform(1B):**
 
 ![EX4 OUTWAVE 1B](https://github.com/user-attachments/assets/7dc9ff21-0061-4e02-9455-d3813f3b4fa5)
 
