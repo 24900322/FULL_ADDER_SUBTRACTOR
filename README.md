@@ -46,9 +46,34 @@ FULL SUBTRACTOR:
 
 ![ex4 full sub](https://github.com/user-attachments/assets/4bc72019-5f25-4ff6-ad1a-3e6e11373964)
 
-**Program(1A):**
+**Program:**
 
-![EX4 PRO 1A](https://github.com/user-attachments/assets/89d900b4-0dd0-4c83-b4bb-2f48201ee51d)
+Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming.
+Developed by: vijay m
+RegisterNumber: 24900322
+
+## Full_adder
+module fulladd_top(a,b,cin,sum,carry);
+input a,b,cin;
+output sum,carry;
+wire w1,w2,w3,w4;       
+xor(w1,a,b);
+xor(sum,w1,cin);        
+
+and(w2,a,b);
+and(w3,b,cin);
+and(w4,cin,a);
+
+or(carry,w2,w3,w4);
+endmodule 
+
+## Full_subtractor
+module fullsub_top(a,b,Bin,BO,DIFF);
+input a,b,Bin;
+output BO,DIFF;
+assign DIFF = a ^ b ^ Bin;
+  assign BO = (a & b) | ((a ^ b) & Bin);
+endmodule
 
 **RTL Schematic(1A)"**
 
@@ -58,9 +83,6 @@ FULL SUBTRACTOR:
 
 ![EX4 OUTWAVE 1A](https://github.com/user-attachments/assets/1ed19256-4162-4858-85b0-366d7699dd6b)
 
-**Program(1B):**
-
-![EX4 PRO 1B](https://github.com/user-attachments/assets/44f61a9d-9c12-48fc-b7f4-8f29c511c720)
 
 **RTL Schematic(1B)"**
 
@@ -70,9 +92,6 @@ FULL SUBTRACTOR:
 
 ![EX4 OUTWAVE 1B](https://github.com/user-attachments/assets/7dc9ff21-0061-4e02-9455-d3813f3b4fa5)
 
-Developed by: M.VIJAY 
-
-RegisterNumber: 24900322
  
 **Result:**
 
