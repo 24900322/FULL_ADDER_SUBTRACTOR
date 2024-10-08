@@ -73,6 +73,10 @@ FULL SUBTRACTOR:
 
 ![EX4 OUTWAVE 1B](https://github.com/user-attachments/assets/7dc9ff21-0061-4e02-9455-d3813f3b4fa5)
 
+Developed by: M.VIJAY 
+
+RegisterNumber: 24900322
+ 
 **Result:**
 
   Thus the Full Adder and Full Subtractor circuits are designed and the truth tables is verified using Quartus software.
