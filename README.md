@@ -16,6 +16,8 @@ Software – Quartus prime
 
 **Full Adder**
 
+
+
 Full adder is a digital circuit used to calculate the sum of three binary bits. It consists of three inputs and two outputs. Two of the input variables, denoted by A and B, represent the two significant bits to be added. The third input, Cin, represents the carry from the previous lower significant position. Two outputs are necessary because the arithmetic sum of three binary digits ranges in value from 0 to 3, and binary 2 or 3 needs two digits. The two outputs are sum and carry.
 
 Sum =A’B’Cin + A’BCin’ + ABCin + AB’Cin’ = A ⊕ B ⊕ Cin 
@@ -37,7 +39,6 @@ Diff = A ⊕ B ⊕ Bin
 Borrow out = A'Bin + A'B + BBin
 
 **Truthtable**
-
 FULL ADDER:
 
 ![ex4 full adder](https://github.com/user-attachments/assets/ab737c73-64ab-4113-b76f-bb7239eedd42)
@@ -46,16 +47,13 @@ FULL SUBTRACTOR:
 
 ![ex4 full sub](https://github.com/user-attachments/assets/4bc72019-5f25-4ff6-ad1a-3e6e11373964)
 
-
 **Program(1A):**
 
 ![EX4 PRO 1A](https://github.com/user-attachments/assets/89d900b4-0dd0-4c83-b4bb-2f48201ee51d)
 
-
 **RTL Schematic(1A)"**
 
 ![EX4 RTL 1A](https://github.com/user-attachments/assets/35fd0570-349c-4290-b87c-a660f46ccb9f)
-
 
 **Output Timing Waveform(1A):**
 
