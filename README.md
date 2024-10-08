@@ -38,18 +38,40 @@ Borrow out = A'Bin + A'B + BBin
 
 **Truthtable**
 
-**Procedure**
+FULL ADDER:
 
-Write the detailed procedure here
+![ex4 full adder](https://github.com/user-attachments/assets/ab737c73-64ab-4113-b76f-bb7239eedd42)
 
-**Program:**
+FULL SUBTRACTOR:
 
-/* Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming. Developed by: RegisterNumber:
-*/
+![ex4 full sub](https://github.com/user-attachments/assets/4bc72019-5f25-4ff6-ad1a-3e6e11373964)
 
-**RTL Schematic**
 
-**Output Timing Waveform**
+**Program(1A):**
+
+![EX4 PRO 1A](https://github.com/user-attachments/assets/89d900b4-0dd0-4c83-b4bb-2f48201ee51d)
+
+
+**RTL Schematic(1A)"**
+
+![EX4 RTL 1A](https://github.com/user-attachments/assets/35fd0570-349c-4290-b87c-a660f46ccb9f)
+
+
+**Output Timing Waveform(1A):**
+
+![EX4 OUTWAVE 1A](https://github.com/user-attachments/assets/1ed19256-4162-4858-85b0-366d7699dd6b)
+
+**Program(1B):**
+
+![EX4 PRO 1B](https://github.com/user-attachments/assets/44f61a9d-9c12-48fc-b7f4-8f29c511c720)
+
+**RTL Schematic(1A)"**
+
+![EX 4 RTL 1B](https://github.com/user-attachments/assets/c301664e-f42d-41ff-8ff0-e2263f84490e)
+
+**Output Timing Waveform(1A):**
+
+![EX4 OUTWAVE 1B](https://github.com/user-attachments/assets/7dc9ff21-0061-4e02-9455-d3813f3b4fa5)
 
 **Result:**
 
